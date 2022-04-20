@@ -1,0 +1,92 @@
+@import "null.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+.wrapper {
+	min-height: 100%;
+	/*overflow: hidden;*/
+}
+body{
+	font-family: "Roboto",
+	sans-serif;
+	font-size: 16px;
+}
+.main{
+	margin-top: 120px;
+}
+.about {
+	color: #ffffff;
+	max-width: 1020px;
+	margin: 0 auto;
+	max-width: 1020px;
+}
+.about__container{
+	background: #5D62B5;
+	border-radius: 40px;
+	position: relative;
+	padding: 100px 0 0 87px;
+}
+.about__who-we-are {
+	max-width: 583px;
+}
+.who-we-are-about__sud-title{
+font-size: 12px;
+font-weight: 700;
+line-height: 1.4;
+letter-spacing: 2.5px;
+text-transform: uppercase;
+color: #F5F5F5;
+margin: 0 0 33px 33px;
+}
+.who-we-are-about__sud-title::before {
+	content: "";
+	display: inline-block;
+	background: url("../img/02.svg") 0 -1px /19px  no-repeat ;
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	margin: 0 0 0 -33px;
+}
+.who-we-are-about__title{
+	font-size: 36px;
+	font-weight: 900;
+	line-height: 1.16;
+	color: #FFFFFF;
+	margin: 0 0 36px 0;
+}
+.about__container::before{
+	content: "";
+	display: inline-block;
+	width: 201px;
+	height: 317px;
+	background: url("../img/03.svg") 0 0 no-repeat;
+	position: absolute;
+	right: -76px;
+	top: -109px;
+}
+.about__text{
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.4;
+	letter-spacing: 0.15px;
+	color: #F5F5F5;
+	margin: 0 0 54px 0;
+	max-width: 846px;
+}
+.about__image{
+	display: inline-block;
+position: relative;
+}
+.about__item{
+border-radius: 40px;
+margin-bottom: -120px;
+position: relative;
+}
+.about__image::before {
+	content: "";
+	position: absolute;
+	top: -45px;
+	left: -37px;
+	width: 553px;
+	height: 371px;
+	background: url("../img/01.svg") 0 0 no-repeat;
+}
